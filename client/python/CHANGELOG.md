@@ -1,5 +1,11 @@
 # gradio_client
 
+## 2.2.1
+
+### Fixes
+
+- [#12942](https://github.com/gradio-app/gradio/pull/12942) [`e5ba4fa`](https://github.com/gradio-app/gradio/commit/e5ba4fa992c0ac389c6af2d143c9ad4c33eea360) - perf: use deque for SSE pending message queues in gradio_client.  Thanks @giulio-leone!
+
 ## 2.2.0
 
 ### Features

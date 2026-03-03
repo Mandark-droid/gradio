@@ -1,5 +1,11 @@
 # @gradio/core
 
+## 1.3.1
+
+### Fixes
+
+- [#12956](https://github.com/gradio-app/gradio/pull/12956) [`e8dadd6`](https://github.com/gradio-app/gradio/commit/e8dadd648483b6016913a9b7fa2580dbc08cb823) - Fix fill_height not working after Svelte 5 migration.  Thanks @hysts!
+
 ## 1.3.0
 
 ### Dependency updates

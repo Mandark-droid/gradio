@@ -1,5 +1,11 @@
 # @gradio/highlightedtext
 
+## 0.11.3
+
+### Fixes
+
+- [#12859](https://github.com/gradio-app/gradio/pull/12859) [`a2bd6e1`](https://github.com/gradio-app/gradio/commit/a2bd6e1fb5d19e59ae694ab80c2874288e9982b8) - feat(highlighted_text): add show_whitespaces param to preserve spaces.  Thanks @Whosxws!
+
 ## 0.11.2
 
 ### Dependency updates

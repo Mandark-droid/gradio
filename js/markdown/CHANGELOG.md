@@ -1,5 +1,11 @@
 # @gradio/markdown
 
+## 0.13.29
+
+### Fixes
+
+- [#12958](https://github.com/gradio-app/gradio/pull/12958) [`bb127c7`](https://github.com/gradio-app/gradio/commit/bb127c74bd6301e3782e0ce4744161ae976a8481) - ensure `show_progress` works as expected in `gr.Markdown`.  Thanks @hannahblair!
+
 ## 0.13.28
 
 ### Dependency updates

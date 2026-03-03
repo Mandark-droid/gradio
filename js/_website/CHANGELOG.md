@@ -1,5 +1,11 @@
 # website
 
+## 0.72.0
+
+### Features
+
+- [#12959](https://github.com/gradio-app/gradio/pull/12959) [`84a9235`](https://github.com/gradio-app/gradio/commit/84a923531490d4defe903985c2496a2d6412092b) - Fix table styling on the docs.  Thanks @aliabd!
+
 ## 0.71.1
 
 ### Dependency updates

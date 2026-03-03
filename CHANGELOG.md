@@ -1,5 +1,23 @@
 # gradio
 
+## 6.8.1
+
+### Features
+
+- [#12922](https://github.com/gradio-app/gradio/pull/12922) [`078685d`](https://github.com/gradio-app/gradio/commit/078685d218953a386be50b1655707fc0854270bb) - docs:Add "Understanding Image Types" section to Image component docs.  Thanks @Pchambet!
+- [#12923](https://github.com/gradio-app/gradio/pull/12923) [`486e920`](https://github.com/gradio-app/gradio/commit/486e9209a0989561746a9fc77801e60fede22a1a) - docs:Add "Common Patterns" section to Slider component docs.  Thanks @Pchambet!
+
+### Fixes
+
+- [#12836](https://github.com/gradio-app/gradio/pull/12836) [`77e7871`](https://github.com/gradio-app/gradio/commit/77e7871176e50a894190ac98aa9de8fbdbf3620f) - Fixes hidden accordion's children losing all values.  Thanks @aliabid94!
+- [#12859](https://github.com/gradio-app/gradio/pull/12859) [`a2bd6e1`](https://github.com/gradio-app/gradio/commit/a2bd6e1fb5d19e59ae694ab80c2874288e9982b8) - feat(highlighted_text): add show_whitespaces param to preserve spaces.  Thanks @Whosxws!
+- [#12942](https://github.com/gradio-app/gradio/pull/12942) [`e5ba4fa`](https://github.com/gradio-app/gradio/commit/e5ba4fa992c0ac389c6af2d143c9ad4c33eea360) - perf: use deque for SSE pending message queues in gradio_client.  Thanks @giulio-leone!
+- [#12958](https://github.com/gradio-app/gradio/pull/12958) [`bb127c7`](https://github.com/gradio-app/gradio/commit/bb127c74bd6301e3782e0ce4744161ae976a8481) - ensure `show_progress` works as expected in `gr.Markdown`.  Thanks @hannahblair!
+- [#12944](https://github.com/gradio-app/gradio/pull/12944) [`2c769c7`](https://github.com/gradio-app/gradio/commit/2c769c71628730fbf06c6ba9b70d672b3d052b0f) - Fix massive dropdown slowdowns caused by descructuring a derived array.  Thanks @its5Q!
+- [#12954](https://github.com/gradio-app/gradio/pull/12954) [`a74d379`](https://github.com/gradio-app/gradio/commit/a74d37949e1f12dd6646d16bfab3665ef3579a65) - Fix BrowserState Pydantic model serialization to str instead of dict.  Thanks @OiPunk!
+- [#12950](https://github.com/gradio-app/gradio/pull/12950) [`83b223b`](https://github.com/gradio-app/gradio/commit/83b223b746c3933920dfef670e545a12de9177ed) - fix: forward debug flag from launch() to FastAPI app.  Thanks @OiPunk!
+- [#12956](https://github.com/gradio-app/gradio/pull/12956) [`e8dadd6`](https://github.com/gradio-app/gradio/commit/e8dadd648483b6016913a9b7fa2580dbc08cb823) - Fix fill_height not working after Svelte 5 migration.  Thanks @hysts!
+
 ## 6.8.0
 
 ### Features
